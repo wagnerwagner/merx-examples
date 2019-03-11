@@ -1,0 +1,7 @@
+Title: Nice shoes
+----
+Price: 99.99
+----
+Tax: 19
+----
+Description: Lorem Ipsum

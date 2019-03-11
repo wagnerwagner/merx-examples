@@ -1,0 +1,6 @@
+[submodule "site/plugins/shopkit"]
+	path = site/plugins/shopkit
+	url = git@github.com:Wagnerwagner/kirby-shopkit.git
+[submodule "kirby"]
+	path = kirby
+	url = https://github.com/getkirby/kirby
