@@ -1,7 +1,0 @@
-Title: Nice socks
-----
-Price: 9.99
-----
-Tax: 19
-----
-Description: Lorem Ipsum

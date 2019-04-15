@@ -1,0 +1,17 @@
+Title: Knitted socks
+
+----
+
+Price: 14.99
+
+----
+
+Tax: 19
+
+----
+
+Description: Lorem Ipsum
+
+----
+
+Stock: 20
