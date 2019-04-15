@@ -1,4 +1,4 @@
-<?php snippet('cart', ['cart' => shopkit()->cart()]) ?>
+<?php snippet('cart', ['cart' => merx()->cart()]) ?>
 <form method="post">
   <label>
     Name

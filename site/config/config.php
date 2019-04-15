@@ -1,7 +1,7 @@
 <?php
 return [
   'debug' => true,
-  'ww.shopkit.gateways' => [
+  'ww.merx.gateways' => [
     'empty-gateway' => [],
   ],
   'routes' => [
