@@ -14,4 +14,4 @@ Description: Lorem Ipsum
 
 ----
 
-Stock: 20
+Stock: 10
