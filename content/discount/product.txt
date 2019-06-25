@@ -1,0 +1,9 @@
+Title: Discount
+
+----
+
+Price: -10
+
+----
+
+Tax: 0

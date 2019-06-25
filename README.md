@@ -1,3 +1,3 @@
-Example for Stock Management with Merx.
+Example for Shipping Costs with Merx.
 
-[Cookbook: Stock Management](https://merx.wagnerwagner.de/cookbooks/stock-management)
+[Cookbook: Shipping Costs](https://merx.wagnerwagner.de/cookbooks/shipping-costs)

@@ -23,3 +23,7 @@
   <?php endforeach; ?>
 </tbody>
 </table>
+<p>
+<strong>Tax:</strong> <?= formatPrice($cart->getTax()) ?><br>
+<strong>Sum:</strong> <?= formatPrice($cart->getSum()) ?>
+</p>

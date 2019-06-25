@@ -11,7 +11,3 @@ Tax: 19
 ----
 
 Description: Lorem Ipsum
-
-----
-
-Stock: 10
