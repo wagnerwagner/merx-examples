@@ -1,0 +1,21 @@
+Title: Knitted socks
+
+----
+
+Price: 14.99
+
+----
+
+Tax: 19
+
+----
+
+Stock: 42
+
+----
+
+Description: The wealth of societies in which a capitalistic mode of production prevails, appears as a ‘gigantic collection of commodities’ and the singular commodity appears as the *elementary form* of wealth. Our investigation begins accordingly with the analysis of the commodity.
+
+----
+
+Image: - socks.jpeg
