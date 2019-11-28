@@ -10,7 +10,7 @@
   <p>
     <label>
       Email<br>
-      <input type="text" autocomplete="email" name="city" required>
+      <input type="text" autocomplete="email" name="email" required>
     </label>
   </p>
   <h3>Payment Methods</h3>
