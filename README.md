@@ -1,3 +1,4 @@
-Example for Shipping Costs with Merx.
+Very basic but full online shop with Merx
 
-[Cookbook: Shipping Costs](https://merx.wagnerwagner.de/cookbooks/shipping-costs)
+**Live Example**  
+[plainkit-merx.wagnerwagner.de](http://plainkit-merx.wagnerwagner.de)
