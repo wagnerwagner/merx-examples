@@ -1,3 +1,4 @@
 <h1>Order <?= $page->invoiceNumber() ?></h1>
-Name: <?= $page->name() ?>
+<p>Name: <?= $page->name() ?></p>
+<p>Email: <?= $page->email() ?></p>
 <?php snippet('cart', ['cart' => $page->cart()]) ?>

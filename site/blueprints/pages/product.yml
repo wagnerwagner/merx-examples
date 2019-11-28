@@ -5,50 +5,20 @@ options:
   changeTemplate: false
   delete: false
 
-
-columns:
-columns:
-  - width: 1/2
-    sections:
-      hero:
-        type: files
-        layout: cards
-        size: medium
-        template: hero
-        image:
-          cover: true
-  - width: 1/2
-    sections:
-      fields:
-        type: fields
-        fields:
-          price:
-            label: Price
-            type: number
-            required: true
-            step: .01
-            after: €
-            width: 1/2
-          tax:
-            label: Tax
-            type: number
-            required: true
-            step: 1
-            min: 0
-            max: 100
-            after: %
-            width: 1/2
-          stock:
-            type: number
-            label: Stock
-          description:
-            type: textarea
-  - width: 3/3
-    sections:
-      gallery:
-        type: files
-        layout: cards
-        size: tiny
-        template: gallery
-        image:
-          cover: true
+fields:
+  price:
+    label: Price
+    type: number
+    required: true
+    step: .01
+    after: €
+    width: 1/2
+  tax:
+    label: Tax
+    type: number
+    required: true
+    step: 1
+    min: 0
+    max: 100
+    after: %
+    width: 1/2

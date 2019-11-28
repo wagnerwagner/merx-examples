@@ -6,24 +6,6 @@ return [
   'ww.merx.gateways' => [
     'empty-gateway' => [],
   ],
-  'hooks' => [
-    'ww.merx.cart' => function ($cart) {
-      if ($cart->count() > 0) {
-        $cart->remove('shipping');
-        $cart->remove('discount');
-        if ($cart->getSum() < 50) {
-          $cart->add([
-            'id' => 'shipping',
-          ]);
-        }
-        if ($cart->get('knitted-socks')['quantity'] >= 5) {
-          $cart->add([
-            'id' => 'discount',
-          ]);
-        }
-      }
-    }
-  ],
   'routes' => [
     [
       'pattern' => 'add',

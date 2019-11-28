@@ -1,7 +1,7 @@
 <h2>Products</h2>
-<?php foreach ($pages->filterBy('intendedTemplate', 'product')->listed() as $item): ?>
+<?php foreach ($site->find('products')->children()->listed() as $item): ?>
 <form action="add" method="post">
-  <h2><?= $item->title() ?></h2>
+  <h3><?= $item->title() ?></h3>
   Price: <?= formatPrice($item->price()->toFloat()) ?><br>
   Tax: <?= formatPrice(calculateTax($item->price()->toFloat(), $item->tax()->toFloat())) ?><br>
   <input type="hidden" name="id" value="<?= $item->id() ?>">

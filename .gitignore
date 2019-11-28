@@ -1,2 +1,3 @@
 site/sessions
 content/orders/**/order.txt
+public/media/*

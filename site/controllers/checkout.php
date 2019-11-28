@@ -1,4 +1,7 @@
 <?php
+if (merx()->cart()->isEmpty()) {
+  go('/');
+}
 if (kirby()->request()->method() === 'POST') {
   try {
     $data = $_POST;
@@ -6,5 +9,6 @@ if (kirby()->request()->method() === 'POST') {
     go($redirect);
   } catch (Exception $ex) {
     echo $ex->getMessage();
+    dump($ex->getDetails());
   }
 }

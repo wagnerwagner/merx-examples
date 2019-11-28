@@ -1,0 +1,27 @@
+title: Order
+
+status:
+  draft: Error
+  unlisted: Incomplete
+  listed: Complete
+
+options:
+  changeSlug: false
+  changeTemplate: false
+  changeTitle: false
+  delete: false
+
+tabs:
+  overview:
+    sections:
+      order: sections/order
+      details:
+        type: fields
+        fields:
+          name:
+            type: text
+          email:
+            type: email
+  payment:
+    sections:
+      payment-method: sections/payment-method
