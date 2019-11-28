@@ -1,9 +1,0 @@
-Title: Shippping
-
-----
-
-Price: 7.99
-
-----
-
-Tax: 7
