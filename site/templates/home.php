@@ -1,6 +1,6 @@
 <h2>Products</h2>
 <?php foreach ($site->find('products')->children()->listed() as $item): ?>
-<form action="add" method="post">
+<form action="<?= url('add') ?>" method="post">
   <h3><?= $item->title() ?></h3>
   Price: <?= formatPrice($item->price()->toFloat()) ?><br>
   Tax: <?= formatPrice(calculateTax($item->price()->toFloat(), $item->tax()->toFloat())) ?><br>
