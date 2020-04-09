@@ -1,0 +1,6 @@
+{
+    "require": {
+        "getkirby/cms": "^3.3",
+        "wagnerwagner/merx": "^1.3"
+    }
+}

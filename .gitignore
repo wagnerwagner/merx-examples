@@ -2,3 +2,6 @@ site/sessions
 site/accounts/*
 content/orders/**/order.txt
 public/media/*
+/kirby
+/vendor
+/site/plugins/merx
