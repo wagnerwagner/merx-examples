@@ -9,6 +9,5 @@ if (kirby()->request()->method() === 'POST') {
     go($redirect);
   } catch (Exception $ex) {
     echo $ex->getMessage();
-    dump($ex->getDetails());
   }
 }
